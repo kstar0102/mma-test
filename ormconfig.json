@@ -1,0 +1,10 @@
+{
+    "type": "postgres",
+    "host": "localhost",
+    "port": 5432,
+    "username": "admin",
+    "password": "pass1234",
+    "database": "mma",
+    "entities": ["dist/**/*.entity{.ts,.js}"],
+    "synchronize": true
+  }
